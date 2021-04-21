@@ -23,7 +23,7 @@ AC_PROG_LN_S
 AC_CHECK_DECLS([environ])
 
 AC_FUNC_FORK
-CC_CHECK_CFLAGS_APPEND([-Wall -Wextra -Werror -pedantic -Wno-format])
+CC_CHECK_CFLAGS_APPEND([-Wall -Wextra -Werror -pedantic -Wno-format -std=gnu99])
 
 AC_CHECK_HEADERS([mntent.h sys/vfs.h])
 
