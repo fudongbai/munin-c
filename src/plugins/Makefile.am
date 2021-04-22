@@ -23,6 +23,7 @@ munin_plugins_c_SOURCES = \
 	fw_packets.c \
 	if_err_.c \
 	interrupts.c \
+	irqstats.c \
 	iostat.c \
 	load.c \
 	open_files.c \
